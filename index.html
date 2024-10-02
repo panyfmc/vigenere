@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Cifra de Vigènere</title>
+		<meta name="description" content="Programa para criptografar e descriptografar usando o algoritmo de Vigènere.">
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="style.css">
+		<script src="index.js"></script>
+	</head>
+
+	<body>
+		<div id="janela">
+
+			<div id="cabecalho">
+				<h2>Cifra de Vigenère</h2>
+        <div id="entrada">
+          <h2>Entrada</h2>
+  
+          <textarea id="texto_entrada" rows="5"></textarea>
+  
+          <h2>Chave</h2>
+  
+          <textarea id="texto_chave" rows="1"></textarea>
+  
+          <div id="opcoes">
+            <button id="btnEncriptar" class="button btnEncriptar" onClick="vigenere('E')">ENCRIPTAR</button>
+            <button id="btnDesencriptar" class="button btnDesencriptar" onClick="vigenere('D')">DESENCRIPTAR</button>
+          </div>
+  
+          <div id="saida" style="display: none">
+            <h2>Resultado</h2>
+  
+            <div id="resultado"></div>
+          </div>
+          
+        </div>
+
+			</div>
+      
+		</div>
+
+	</body>
+
+</html>

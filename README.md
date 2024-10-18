@@ -8,6 +8,9 @@ Como funciona
 A cifra de Vigenère utiliza uma chave repetida ao longo do texto para alterar as letras da mensagem. Cada letra da chave é usada para deslocar uma letra da mensagem original de acordo com sua posição no alfabeto.</h3>
 
 <h4>Exemplo
+&psps
 Mensagem original: HELLO
+  &psps
 Chave: KEY
+  &psps
 Texto cifrado: RIJVS </h4>
